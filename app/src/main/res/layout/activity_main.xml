@@ -19,8 +19,8 @@
             android:scaleY="3"
             android:text="Happy Birthday!"
             android:textColor="#FF6B06"
-            android:translationX="100"
-            android:translationY="15" />
+            android:translationX="100dp"
+            android:translationY="15dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -41,6 +41,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frosting"
+            />
 
         <Button
             android:id="@+id/button"
